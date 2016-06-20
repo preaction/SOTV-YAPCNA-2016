@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title>TALK NAME</title>
+        <title>State of the Raptor</title>
 
         <meta name="description" content="TALK DESCRIPTION">
         <meta name="author" content="Doug Bell">
@@ -29,6 +29,12 @@
             link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
             document.getElementsByTagName( 'head' )[0].appendChild( link );
         </script>
+        <style>
+            .reveal img {
+                max-width: 90%;
+                max-height: 60%;
+            }
+        </style>
 
         <!--[if lt IE 9]>
         <script src="reveal.js/lib/js/html5shiv.js"></script>
@@ -44,12 +50,6 @@
 
                 <section data-markdown="slides.md" data-separator="^------\n" data-separator-vertical="^---\n"></section>
 
-            </div>
-
-            <div style="position: absolute; left: 0.2em; bottom: 0.2em; z-index: 1000; max-width: 10%">
-                <a href="http://chicago.pm.org">
-                    <img src="http://chicago.pm.org/theme/images/chicagopm-small.png" />
-                </a>
             </div>
         </div>
 
