@@ -130,7 +130,7 @@ Hi again
 
 ------
 
-# Thanks
+# Thanks To...
 
 ---
 
@@ -261,7 +261,7 @@ CPAN and core Perl infrastructure
 
 ------
 
-# Thanks
+# Thanks To...
 
 ---
 
